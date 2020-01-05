@@ -38,7 +38,6 @@ export function setRandomMines(mineCount: number) {
     if (obj[`${randomRow}${randomCol}`].isState === 0) {
       // 숫자 9는 mines인지 아닌지를 판별하기 위한 숫자
       obj[`${randomRow}${randomCol}`].isState = 9;
-      obj[`${randomRow}${randomCol}`].text = '⊗';
       placedMines++;
     }
   }

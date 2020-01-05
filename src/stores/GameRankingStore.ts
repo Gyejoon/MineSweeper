@@ -34,8 +34,7 @@ export default class GameRankingStore {
   @computed
   get computedRankers() {
     // 순위 매기는 알고리즘.
-    const copyRankers = Object.assign([] as Ranker[], this.rankers);
-    const sortedRanker = copyRankers.sort((a, b) => {
+    const sortedRanker = this.rankers.slice().sort((a, b) => {
       if (a.time > b.time) {
         return 1;
       }
