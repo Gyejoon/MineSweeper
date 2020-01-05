@@ -275,4 +275,4 @@ module.exports=require("core-js/library/fn/json/stringify");
 },{"react":"n8MK","mobx-react":"YqSg","../stores/RootStore":"G3gx"}],"zo2T":[function(require,module,exports) {
 "use strict";var e=l(require("react")),r=l(require("react-dom")),t=l(require("./App")),u=l(require("./providers/StoreProvider"));function l(e){return e&&e.__esModule?e:{default:e}}r.default.render(e.default.createElement(u.default,null,e.default.createElement(t.default,null)),document.getElementById("root"));
 },{"react":"n8MK","react-dom":"NKHc","./App":"NHn6","./providers/StoreProvider":"u9ON"}]},{},["zo2T"], null)
-//# sourceMappingURL=/src.ce8b6699.js.map
+//# sourceMappingURL=/MineSweeper/src.ce8b6699.js.map
